@@ -1,3 +1,5 @@
+# Terminology
+
 - High availability: Refers to systems that are durable and likely to operate continuously without failure for a long time. For a solutions architect this means making sure your application is always available when a user/customer tries to access it.
 - Fault tolerance: It is the property that enables a system to continue operating properly in the event of the failure of one or more of its components. A fault tolerant application would be where one of its web server can fail, and still serve traffic to visitors.
 - Scalability: The ability of a system to easily increase in size and capacity in a cost effective way

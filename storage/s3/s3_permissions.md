@@ -1,3 +1,5 @@
+# Storage - S3 - Permissions
+
 - All buckets and objects are private by default (only owner access)
 - The resource owner can grant access to the resource through S3 resource based policies or access can be granted through a traditional IAM user policy
 - Resource based policies:

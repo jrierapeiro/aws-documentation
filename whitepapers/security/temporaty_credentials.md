@@ -1,4 +1,5 @@
-IAM Roles and temporary security credentials
+# IAM Roles and temporary security credentials
+
 - There are scenarios in which you want to delegate access to users or services that don’t normally have access to your AWS resources:
   - Applications running on Amazon EC2 instances that need to access AWS resources
   - Cross account access

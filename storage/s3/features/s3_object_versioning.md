@@ -1,3 +1,4 @@
+# Storage - S3 - Features - Object versioning
 - S3 versioning is a feature to manage and store all old/new/deleted versions of an object
 - By default, versioning is disabled on all buckets/objects
 - Once versioning is enabled, you can only suspend versioning. It cannot be fully disabled. Suspending versioning only prevents new versions from being created. All objects with existing versions will maintain their older versions.

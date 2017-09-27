@@ -1,3 +1,4 @@
+# Services - Simple Quere Service
 - SQS provides the ability to have hosted/highly available queues that can be used for messages being sent between servers.
 - This allows for the creation of distributed/decoupled application components.
 - SQS is used to create decoupled application environments

@@ -1,2 +1,4 @@
+# Storage - Storage gateway stored volumes
+
 - Store all data locally (on-premise) in storage volumes.
 - Gateway will periodically take snapshots of the data as incremental backups and stores them on Amazon S3.

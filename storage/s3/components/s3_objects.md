@@ -1,3 +1,4 @@
+# Storage - S3 - Components - Objects
 - Objects are static files that contains metadata information
   - Name-key pairs
   - Information specified by the user, and AWS information such as object type

@@ -1,3 +1,5 @@
+# Cloud services - Best practices
+
 - Design for failure, and create self-healing applications
 - Always design application with instances in at least two AZs
 - Guarantee that you have reserved capacity in the event of an emergency by purchasing reserved instances in a designated recovery AZ

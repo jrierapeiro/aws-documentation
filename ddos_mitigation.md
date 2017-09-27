@@ -1,3 +1,5 @@
+# DDoS mitigation
+
 - Firewalls: security groups, network access control lists, host-based firewalls
 - Web application firewalls
 - Host-based or inline IDS/IPS (trend micro)

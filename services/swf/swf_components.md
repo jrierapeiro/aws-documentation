@@ -1,3 +1,5 @@
+# Services - Simple Work Flow - Components
+
 - Workflow: A sequence of steps required to perform a specific task. It is also commonly referred to as a decider.
 - Activities: A single step in the workflow.
 - Tasks: That interacts with the workers that are part of the workflow.

@@ -1,3 +1,5 @@
+# Elasticity and scalability
+
 - Proactive Cycle Scaling: Scaling that occurs at a fixed interval
 - Proactive Event-based scaling: Scaling that occurs in anticipation of an event.
 - Auto-scaling based on demand: Scaling that occurs based off of increase in demand for the application

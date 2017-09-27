@@ -1,3 +1,5 @@
+# Elastic block storage
+
 - SSD-Backed General purpose: Boot volumes, low-latency, interactive apps, dev & test. From 1 GiB up to 16 TiB.
 - SSD-Backed Provisioned IOPS: I/O-intensive NoSQL and relational databases. From 4 GiB up to 16 TiB.
 - HDD-Backed throughput Optimized: Big data, data warehouse, log processing. From 500 GiB up to 16 TiB.

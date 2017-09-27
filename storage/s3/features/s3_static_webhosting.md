@@ -1,3 +1,4 @@
+# Storage - S3 - Features - Static webhosting
 - It will provide you with an unique endpoint that you can point to any properly formatted file stored in an S3 bucket. Supported formats are”
   - Html
   - Css

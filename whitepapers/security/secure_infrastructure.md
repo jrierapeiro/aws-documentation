@@ -1,3 +1,5 @@
+# Secure infrastructure
+
 - On AWS, you can build network segments using the following access control methods:
   - VPC: To define an isolated network for each workload or organizational entity.
   - Security groups: To manage access to instances that have similar functions and security requirements; they are stateful firewalls that enable firewall rules in both directions. TCP or UDP
