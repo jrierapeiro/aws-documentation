@@ -1,0 +1,9 @@
+- A route table contains a set of rules, called routes, that are used to determine where the network traffic is directed.
+- Two main components:
+  - Destination: The CIDR block range of the target
+  - Target: A name identifier of where the data is being routed to
+- By default, all subnets traffic is allowed to each other available subnet within your VPC is called the local route
+- You can have multiple active route tables in a VPC
+- You cannot delete a route table if it has dependencies
+- Best practice is to leave the default route table and create a new route table when new routes are needed for specific subnets
+- A VPC automatically comes with a main route table that you can modify.

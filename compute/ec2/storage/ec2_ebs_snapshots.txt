@@ -1,0 +1,6 @@
+- They are point-in-time backups of EBS volumes that are stored in S3
+- Properties:
+  - Are incremental in nature
+  - If the original snapshot is deleted, all data is still available in all the other snapshots
+  - Charge by the amount of incremental data in each snapshot
+- Take a snapshot can degrade performance 

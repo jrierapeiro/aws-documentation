@@ -1,0 +1,4 @@
+- IAM user credentials should never be stored or passed to an EC2 instance.
+- An explicit deny always override an explicit allow from attached IAM policies
+- AWS account can have 5000 IAM users
+- User names can be a combination of up to 64 letters, digits, and these characters: plus (+), equal (=), comma (,), period (.), at sign (@), and hyphen (-). Names must be unique within an account. They are not distinguished by case.

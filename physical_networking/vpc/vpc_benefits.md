@@ -1,0 +1,9 @@
+- Ability to launch instances into a subnet
+- Ability to define custom CIDR inside each subnet
+- Ability to configure routes between subnets via route tables
+- Ability to configure an internet gateway to provide a route to the internet for resources launched inside the VPC
+- Ability to create a layered network of resources
+- Ability to extend your on-premise network into the cloud with VPN/VPG and IPsec VPN tunnel.
+- Layered security:
+  - Instance level security groups (firewall on the instance level)
+  - Subnet level network ACLs (firewall on the subnet level)

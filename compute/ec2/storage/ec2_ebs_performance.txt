@@ -1,0 +1,5 @@
+- Measure input/output operations in IOPS:
+  - IOPS are input.output operations per second
+  - 256KB chunks or smaller (bigger are splitted in chunks)
+- They will receive their maximum performance at the moment they are created
+- Volumes created from an EBS snapshot must be initialized (reading all the block to avoid this impact in production)

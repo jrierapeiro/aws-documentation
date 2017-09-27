@@ -1,0 +1,4 @@
+- Router: When setting up a VPN, the route table (for the subnet you wish to extend) must include routes for the on-premise network that are used by the VPN, and point them to the virtual private gateway.
+- Virtual private gateway:It acts as the connector on the VPC (AWS) side of the VPN connection.
+- VPN connection: It is the actual link between the VPG and the customer gateway. This connection is setup and managed in AWS. Each connection uses two IPsec tunnels for redundancy
+- Customer Gateway: It is a physical device or software application at the on-premise location that acts as the connector to the VPN connection.

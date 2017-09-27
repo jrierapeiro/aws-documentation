@@ -1,0 +1,10 @@
+- It is a fully managed NoSQL database service (similar to MongoDB)
+  - Service manages all provisioning (and scaling) of underlying hardware
+  - Fully distributed, and scales automatically with demand and growth
+  - Built as a fault tolerant highly available service (AZ’s within the region)
+- It is schemaless, and uses a key-value store
+- You have to specify the capacity
+- Use cases:
+  - IOT (storing meta data)
+  - Gaming (session information, leaderboards)
+  - Mobile (user profiles, personalization)

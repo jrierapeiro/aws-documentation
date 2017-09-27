@@ -1,0 +1,2 @@
+- For Linux/Unix instances, the instance console output displays the exact console output that would normally be displayed on a physical monitor attached to a computer. This output is buffered because the instance produces it and then posts it to a store where the instance's owner can retrieve it .
+- For Windows instances, the instance console output displays the last three system event log errors.

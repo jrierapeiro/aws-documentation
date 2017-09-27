@@ -1,0 +1,7 @@
+- A preconfigured package (template) that includes:
+  - Operating system
+  - Software packages
+  - Other required settings (root storage type & virtualization type)
+- Linux AMI Virtualization Types (Xen Hypervisor software)
+  - HVM AMIs (Hardware Virtual Machine)
+  - PV AMIs (Paravirtual)

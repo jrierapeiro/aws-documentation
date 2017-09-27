@@ -1,0 +1,6 @@
+- It will provide you with an unique endpoint that you can point to any properly formatted file stored in an S3 bucket. Supported formats are”
+  - Html
+  - Css
+  - JavaScript
+- Route 53 can also man human-readable domain names to static web hosting buckets, which are ideal for DNS failover solutions
+- Url: <bucket-name>.s3-website-<AWS-region>.amazonaws.com

@@ -1,0 +1,5 @@
+- It enables the ability to extend a subnet from one geographic location to another geographic location on two separate networks
+- Extending subnets allows the network at location A to communicate internally with all resources at location B
+- The VPN connection has two parallel routes (IPsec tunnels), which is for redundancy
+- Only one virtual private gateway can be attached to a VPC
+- A VPC can have both IGW and VPG

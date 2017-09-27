@@ -1,0 +1,13 @@
+- General purpose SSD:
+  - Used for dev/test environments and smaller DB instances
+  - Up to 10.000 IOPS per volume
+  - From 1GiB to 16TiB
+- Provisioned IOPS SSD
+  - Used for mission critical applications that require sustained IOPS performance
+  - Large database workloads
+  - From 4GiB to 16TiB
+  - Up to 20.000 IOPS per volume
+- Magnetic:
+  - Low storage cost
+  - Used for workload when performance is not important or data is infrequently accessed
+  - From  500GiB to 16TiB

@@ -1,0 +1,11 @@
+- MySQL
+  - Port 3306
+  - Default maximum provisioned IOPS for oracle/mysql RDS 30000
+- Oracle
+- MariaDB
+- PostgreSQL
+- MS SQL Server
+  - Express max size 300Gb per DB
+- Aurora:
+  - Data copies by default = 6
+  - Fork of MySQl, 5 times better performance and a lower price point that commercial BDs

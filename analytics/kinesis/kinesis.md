@@ -1,0 +1,17 @@
+- Kinesis is a real-time data processing service that continuously captures (and stores) large amount of data that can power real-time streaming dash boards.
+- Using the AWS provided SDKs, you can create real-time dashboards, integrate dynamic pricing strategies, and export data from Kinesis to other AWS services:
+  - EMR (analytics)
+  - S3 (storage)
+  - Redshift (bid data)
+  - Lambda (event driven actions)
+- Benefits:
+  - Real-time processing: Continuously collect and build applications that analyze the data as it’s generated.
+  - Parallel Processing: Multiple Kinesis applications can be processing the same incoming data streaming concurrently.
+  - Durable: Kinesis synchronously replicates the streaming data across three data centers within a single AWS region and preserves the data for up to 24h but can be configured to store up to 7 days
+  - Scales: Can stream from as little as few megabytes to several terabytes per hour
+- When to use:
+  - Gaming: Real-time actions of the player
+  - Real-time analytics: Collect IOT (sensors) from many sources and process the data.
+  - Application alerts: Monitor incoming application logs in real-time
+  - Log / Event data collection: Process data and store it in S3
+  - Mobile data capture

@@ -1,0 +1,21 @@
+- Standard:
+  - Designed for general, all-purpose storage
+  - Is the default storage option
+  - 99.999999999% object durability (11 9s)
+  - 99.99% object availability
+  - It’s the most expensive class
+- Reduced Redundancy Storage (RRS)
+  - Designed for non-critical, reproducible objects
+  - 99.99% object durability
+  - 99.99% object availability
+  - It’s less expensive than the standard storage class
+- Infrequent access (S3-IA)
+  - Designed for object that you do not frequently access, but must be immediately available when accessed.
+  - 99.999999999% object durability
+  - 99.90% object availability
+  - It’s less expensive than standard/RRS storage classes
+- Glacier
+  - Designed for long-term archival storage (not to be used as backups)
+  - May take several hours for objects to be retrieved
+  - 99.999999999% object durability
+  - It is the cheapest storage class

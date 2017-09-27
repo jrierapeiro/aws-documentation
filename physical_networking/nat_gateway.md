@@ -1,0 +1,6 @@
+- It is designated to provide EC2 instances that live in a private subnet with a route to the internet (download software)
+- It will prevent any hosts located outside the VPC from initiating a connection with instances that are associated with it
+- It will only allow incoming traffic through if a request for it originated from an instance in a private subnet
+- Key points:
+  - It must be created in a public subnet
+  - It must be part of the private subnets route table

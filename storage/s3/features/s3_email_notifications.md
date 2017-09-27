@@ -1,0 +1,2 @@
+- Event notifications allow you to setup automated communication between S3 and other AWS services when a selected event occurs in an S3 bucket.
+- Notifications can be sent to: SNS. lambda, and SQS queue

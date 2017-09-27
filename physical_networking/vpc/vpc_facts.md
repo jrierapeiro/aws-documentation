@@ -1,0 +1,5 @@
+- A VPC is housed within a chosen AWS region.
+- A VPC spans multiple AZ’s within a region.
+  - Allows you to provision redundant resources in separate AZ while having them accessible on the same network
+- AWS DNS server for you VPC so each instance has a hostname (you can use your own DNS server).
+- Max size is /16

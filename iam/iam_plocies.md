@@ -1,0 +1,8 @@
+- A policy is a document that formally states one or more permissions
+- Pre-built policies:
+  - Administrator access
+  - Power user access
+  - Read only access
+- More than one policy can be attached to a user or group at the same time.
+- Policies cannot be directly attached to AWS resources
+- Policy: Actions, resources, effect (you can store up to 5 versions)

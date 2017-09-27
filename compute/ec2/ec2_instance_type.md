@@ -1,0 +1,11 @@
+- Instance types describe the hardware components that an EC2 instance will run on:
+  - Compute power (processor/vCPU)
+  - Memory (ram)
+  - Storage options/optimization (hard drive)
+  - Network performance (bandwidth)
+- Types:
+  - General purpose: t2, m3
+  - Compute optimized: c3, c4
+  - Storage optimized: d2, i2
+  - GPU optimized: g2, p2
+  - Memory optimized: r3/r4, x1

@@ -1,0 +1,6 @@
+- It is the VPC that comes preconfigured in your AWS account when it is first created
+- It has a different setup than a non-default VPCs
+- It is meant to allow the user easy access to a VPC without having to configure it from scratch
+- In the default VPC, all subnets have a route to the internet via route table and an attached IGW
+- Each instance launched in the default VPC (by default) has a private and public IP address
+- It has a NACL and it is associated with the default subnets

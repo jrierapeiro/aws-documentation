@@ -1,0 +1,3 @@
+- AWS is made up of regions which are a grouping of independently separated data centers in a specific geographic regions known as Availability Zones.
+- Regions allow the architect to design applications to confirm specific laws and regulations for specific parts of the world.
+- Users are not region specific

@@ -1,0 +1,15 @@
+- A placement group is a cluster of instances within the same AZ
+- It is used for applications that require extremely low latency network between them.
+- AWS attempts to place all the instances as close as physically possible in the data center to reduce latency
+- Instances within a placement group have a low-latency, 10 Gbps network connection between them (enhanced networking required)
+- Troubleshooting:
+  - An instance stopped in a placement group, once it is started again it will continue to be a member of the placement group
+  - Suggested to launch all the instances in a placement group at the same time and have the same instance type
+  - Insufficient capacity error: Stop the instance and start it again
+- Facts:
+  - Instances not originally launched/created in the placement group cannot be moved into it
+  - Placement groups cannot be merged together
+  - A placement group cannot span multiple AZs
+  - Placement group names must be unique within your own AWS account
+  - Placement groups can be connected
+  - Instances must have 10 gigabit network speeds

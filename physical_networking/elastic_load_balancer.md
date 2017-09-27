@@ -1,0 +1,6 @@
+- It is an EC2 service that automates the process of distributing incoming traffic (evenly) to all the instances that are associated with the ELB across multiple AZs.
+  - Highly availability and fault tolerant architecture
+- It should be paired with an auto scaling group to enhance high availability and fault tolerance and allow for automated scalability and elasticity.
+- An ELB has its own DNS record.
+- ELBs will automatically stop serving traffic to an instance that becomes unhealthy
+- An ELB can help to reduce compute power on an EC2 instance by allowing for an SSL certificate to be applied directly to the ELB

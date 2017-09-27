@@ -1,0 +1,7 @@
+- ACLs operate at the network/subnet level.
+- They support allow and deny rules for traffic traveling into or out of a subnet.
+- They are stateless: so return traffic must be allowed through an outbound rule.
+- They process rules in number order when deciding whether to allow traffic. 
+- The last rule in every ACL is a catch all deny rule.
+- It is an optional layer of security for your VPC that acts as firewall for controlling traffic in and out for one or more subnets.
+- A subnet can only be associated with one NACL at a time

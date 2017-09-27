@@ -1,0 +1,3 @@
+- IGW is required in order to attach an elastic IP address
+- EC2-classic: It is disassociated from your instance when you stop it.
+- Default VPC & Nondefault VPC: It remains associated with your instance when you stop it

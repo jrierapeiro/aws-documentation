@@ -1,0 +1,4 @@
+- Limits: 5000 volumes, 10000 snapshots
+- PIOPS EBS volumen max size 16384GiB max IOPS 20000
+- A general EBS volume has a maximum IOPS of 3000, so even if you provision a volume of large size , it will not make a difference to the IOPS for the volume.
+- I/O reads of greater than 10,000: EBS volumes only allow you to provision up to 4,000k IOPS per volume. EBS optimized instances have greater IOPs and can go up to 16K. Provisioned IOPS can also achieve 10,000 IOPS at 200GiB. Combining EBS optimized with PIOPS can give you reliable performance.

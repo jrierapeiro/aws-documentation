@@ -1,0 +1,23 @@
+- Design for failure, and create self-healing applications
+- Always design application with instances in at least two AZs
+- Guarantee that you have reserved capacity in the event of an emergency by purchasing reserved instances in a designated recovery AZ
+- Always enable RDS Multi-AZ and automated backups (InnoDb for MySQL)
+- Utilize Elastic IP addresses for failover to standby instances when auto scaling and load balancing are not available
+- Use route 53 to implement failover DNS techniques:
+  - Latency based routing
+  - Failover DNS routing
+- Have a disaster recovery and backup strategy that utilizes:
+  - Multiple regions
+  - Maintain up to date AMI’s
+  - Copy EBs snapshots to other regions
+  - Automate everything in order to easily re-deploy resources in event of a disaster
+  - Utilize bootstrapping to quickly bring up new instances with minimal configuration and allows for generic AMIs
+- Decouple application components using services such as SQS
+- Throw away old broken instances
+- Utilize CloudWatch to monitor infrastructure changes and health
+- Utilize MultiPartUpload for S3 uploads (objects >> 100 MB)
+- Cache static content on Amazon CloudFront using EC2 or S3 origins
+- Protect your data in transit by using HTTPS/SSL endpoint 
+- Protect data at rest using encrypted file systems or EBS/S3 encryption options
+- Connect to instances inside of the VPC using a bastion host or VPN connection
+- Use IAM roles on EC2 instances instead of using API keys, never store API keys on an AMI

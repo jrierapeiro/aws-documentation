@@ -1,0 +1,7 @@
+- High availability: Refers to systems that are durable and likely to operate continuously without failure for a long time. For a solutions architect this means making sure your application is always available when a user/customer tries to access it.
+- Fault tolerance: It is the property that enables a system to continue operating properly in the event of the failure of one or more of its components. A fault tolerant application would be where one of its web server can fail, and still serve traffic to visitors.
+- Scalability: The ability of a system to easily increase in size and capacity in a cost effective way
+- Elasticity: The ability of a system to increase and decrease in size. In architecting applications, this usually refers to the ability of an application to increase and decrease serve capacity on demand.
+- Cost efficient: Choosing the correct options to make a system as inexpensive as possible
+- Secure: Following proper security guidelines and practices to secure a system.
+- AWS best practices: A set of guidelines outlined by AWS that should be followed when provisioning and using their services.

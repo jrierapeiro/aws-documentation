@@ -1,0 +1,2 @@
+- Traditional upload in one part.
+- It can upload a file up to 5GB, however any file over 100MB should use multipart upload

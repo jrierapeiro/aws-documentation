@@ -1,0 +1,9 @@
+- The customer is responsible for managing the software level security on instances:
+  - Security groups
+  - Firewalls 
+  - EBS encryption provided by AWS
+  - SSL certificate to the ELB
+- AWS is responsible for managing the hypervisor and physical layer of security:
+  - DDOS protection
+  - Port scanning protection
+  - Ingress network filtering

@@ -1,0 +1,4 @@
+- The following key features in the Amazon VPC infrastructure support deploying threat protection layer technologies:
+  - Support multiple layers of load balancers
+  - Support multiple IP addresses
+  - Support for multiple elastic network interfaces

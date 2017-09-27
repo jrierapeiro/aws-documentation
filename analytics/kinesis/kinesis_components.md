@@ -1,0 +1,11 @@
+- Stream
+- Producers
+  - Producers are devices that collect data for Kinesis processing
+  - You build producers to continuously input data into a Kinesis stream
+  - Producers can include IoT sensors, Mobile devices, etc..
+  - You can have thousands of different producers.
+- Consumers
+  - They consume the stream’s data, this is done concurrently (multiple consumers can consume the same data at the same time): Real-time dashboards, S3, Redshift, EMR
+- Shards
+  - The more data you want to process, the more shards you add to your Kinesis stream
+  - Each shard can process 2MB o read data per second, and 1MB of write data per second

@@ -1,0 +1,3 @@
+- S3 5GB storage
+- EC2 computing 750h
+- ELB 750h

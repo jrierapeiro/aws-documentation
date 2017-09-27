@@ -1,0 +1,5 @@
+- A role is something that another entity can assume (acquires the specific permissions)
+- Roles must be used because policies cannot be directly attached to AWS services.
+- Note: An EC2 instance can only have one role attached at a time (can be changed)
+- Other users can assume a role for temporary access to AWS accounts and resources => Identity Provider Access role
+- AWS account can have 250 roles

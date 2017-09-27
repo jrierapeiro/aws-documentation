@@ -1,0 +1,5 @@
+- It is an EC2 instance that lives in a public subnet, and it is used as a gateway for traffic that is destined for instances that live in private subnets.
+- It is considered the critical strong point of the network.
+- It should have increased and extremely tight security
+- It can be used as an access point to ssh into an internal network
+- A system identified by the firewall administrator as a critical strong point in the network’s security,.Generally, bastion host will have some degree of extra attention paid to their security, may undergo regular audits, and may have modified software.

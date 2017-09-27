@@ -1,0 +1,9 @@
+- EBS volumes are persistent, meaning that they can live beyond the life of the EC2 instance they are attached to (Only if instructed to when created)
+- They are network attached storage, meaning they can be attached/detached to or from various EC2 instances
+- They can only be attached to one EC2 instance at a time
+- They have the benefit of being backed up into a snapshot (restore later)
+- Can be stopped
+- Can be up to 1 or 2 Tb depending on the OS.
+- It is terminated by default when the instance is terminated (can be changed)
+- Other EBS volumes attached to the instance are preserved 
+- EC2 Metrics: By default there would always be some NetworkIn, NetworkOut, CPU utilization but the DiskRead(bytes) would remain 0 for an EBS backed instance.

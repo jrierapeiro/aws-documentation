@@ -1,0 +1,6 @@
+- It gives you the ability to take on-premise data and physically snail mail it to AWS
+- AWs will import the data to either S3, EBS, or Glacier (1 day)
+- Benefits:
+  - Off-site backup
+  - Quickly migrate large amounts of data to the cloud (16Tb per job)
+  - Disaster recovery (AWS will ship the data  back to you)

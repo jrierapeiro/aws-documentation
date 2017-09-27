@@ -1,0 +1,2 @@
+- EC2 key pairs are two cryptographically secure keys that are used by AWS to authenticate a client when logging into an EC2 instance (public key + private key)
+- AWS stores the public key on the instance, and the customer is responsible for storing the private key (chmod 400 *.pem)

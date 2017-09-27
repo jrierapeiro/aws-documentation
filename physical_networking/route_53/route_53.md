@@ -1,0 +1,5 @@
+- Key features:
+  - Domain Registration
+  - Domain Name System Service
+  - Health Checking
+- You can configure for failover to S3 or CloudFront

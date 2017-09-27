@@ -1,0 +1,13 @@
+- Record types:
+  - A: IPv4 IP address (zone apex record, naked domain name)Alias.
+  - AAAA: IPv6 IP address
+  - CNAME: hostname
+  - MX: Email
+- Alias: Instead of an IP address, an alias record set contains a pointer to an AWs specific resource such as: ELB, CloudFront distribution, EBeanstalk, S3 bucket
+- Routing policy: 
+  - Simple: 1 to 1
+  - Weighted: multiple endpoint, manual load balancing
+  - Latency: based on latency
+  - Failover: secondary endpoint if the primary is unavailable
+  - Geolocation: based on geographical location
+- Evaluate health check: Monitor health and trigger an action.

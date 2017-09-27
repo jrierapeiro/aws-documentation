@@ -1,0 +1,3 @@
+- While taking a DB snapshot IO operations will be suspended temporary
+- Data transfer between replica instances is free
+- RDS volume max size provisioned IOPS 6TB

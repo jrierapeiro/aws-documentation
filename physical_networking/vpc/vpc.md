@@ -1,0 +1,11 @@
+- Amazon VPC enables you to launch Amazon Web Services resources into a virtual network that you’ve defined. This virtual network closely resembles a traditional network that you’d operate in your own datacenter, with the benefits of using the scalable infrastructure of AWS.
+- Created using wizard with public and private subnets, it creates a NAT instance and an internet gateway attached to the VPC. The main route table is associated with the private subnet and the custom route table with the public subnet.
+- A VPC can be deleted even when it has: subnets, security groups, ACLs, VPN attachments, IGW, route tables, network interfaces, VPC peering connections.
+- Designed to resemble
+  - Private on-premise data centers
+  - Private corporate network
+- Private network features available 
+  - Private and public subnets
+  - Scalable architecture
+  - Ability to extend corporate/on-premise network to the cloud as if it was part of your network
+- IVPC peering: Yes, as long as the VPC’s are in the same region., Yes, as long as the VPCs’ CIDR blocks don’t overlap.

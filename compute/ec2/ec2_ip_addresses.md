@@ -1,0 +1,11 @@
+- Private
+  - All EC2 instances are automatically created with it
+  - It is used for internal (inside VPC) communication between instances
+- Public
+  - It can be assigned on creation when the auto-assign is enabled
+  - Required for direct communication with the internet
+  - Auto-assigning is based on the setting for the selected subnet that you are provisioning the instance in.
+- Elastic
+  - An EIP is a static IPv4 address designed for dynamic cloud computing
+  - An EIP is a public IPv4 address
+  - It replaces the public ip address of the EC2 instance for as long as it is attached

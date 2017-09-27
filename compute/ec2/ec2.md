@@ -1,0 +1,3 @@
+- EC2 instances are designed to mimic traditional on-premise servers, but with the ability to be commissioned and decommissioned on-demand for easy scalability and elasticity.
+- When an instance is terminated as soon as it is launched => Reached maximum EC2 instance limit. State transition reason: Should reasons
+  - InsufficientInstanceCapacity: In the AWS documentation it is clearly mentioned that if you get the below error that means AWS does not have sufficient capacity in that availability zone.

@@ -1,0 +1,12 @@
+- Topic: The group of subscriptions that you send a message to.
+- Subscription: 
+  - An endpoint that a message is sent. Available:
+    - Http
+    - Https
+    - Email
+    - Email-Json
+    - SQS
+    - Application, Mobile APP notifications
+    - Lambda
+    - SMS
+- Publisher: The entity that triggers the sending of a message (Human, S3 event, cloudwatch alarm)

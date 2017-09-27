@@ -1,0 +1,16 @@
+- It is used to monitor AWS services, such as EC2, ELB and S3.
+- You monitor your environment by configuring and viewing CloudWatch metrics.
+- Metrics are specific to each AWS service or resource, and include such metrics as:
+  - EC2 per instance metrics (cpu utilization, cpu credit usage)
+    - Memory or swap metrics requires third party perl scripts
+  - S3 metrics (number of objects, bucket size bytes)
+  - ELB metrics (request count, unhealthy hosts count)
+- Detailed vs basic level monitoring
+  - Basic: Data is available automatically in 5-min periods at no charge
+  - Detailed: Data is available in 1-min periods
+- CloudWatch alarms can be created to trigger alerts (or other actions in your AWS accounts, such as a SNS topic), based on threshold you set on CloudWatch metrics.
+- Auto scaling heavily utilizes CloudWatch, relying on threshold and alarms to trigger the addition or removal of instances from an auto scaling group.
+- Used for:
+  - Shutting down inactive instances
+  - Monitoring changes in your AWS environment with CloudTrail integration
+  - Monitor instances resources and create alarms based off of usage and availability

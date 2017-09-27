@@ -1,0 +1,3 @@
+- Legacy App with a hard coded IP addresses in its configuration. Mechanisms that will allow the application to fail over to new instances without the need for reconfiguration:
+  - Create a secondary ENI that can be moved to a failover instance
+  - Assign a secondary IP address to the primary ENI that can be moved to a failover instance

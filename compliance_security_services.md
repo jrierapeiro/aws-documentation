@@ -1,0 +1,14 @@
+- Secure access: Use API endpoints, HTTPS, and SSL/TLS
+- Built-in firewalls: VPC
+- Unique users: AWS identity and access management (IAM)
+- Multi-factor authentication
+- Private subnets (inside a VPC)
+- Encrypted data storage? Encrypt data in EBS, S3, Glacier, Redshift, and SQL@RDS
+- Dedicated connection option: Direct connect
+- Perfect forward secrecy: ELB and CLoudFront offer SSL/TLS cipher suites for PFS
+- Security logs (CloudTrail)
+- Asset identification and configuration (AWS config)
+- Centralized key management
+- Isolated GovCloud: US ITAR regulation using AWS GovCloud
+- CloudHSM: Hardware Security Model (HSM) hardware based cryptographic storage
+- Trusted Advisor: With premier support. It will scan your AWS service and tell you ways to improve your security as well as how to save costs

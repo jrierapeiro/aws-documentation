@@ -1,0 +1,10 @@
+- Cross network connection: It is the physical connection between your network and the DC authorized partner, which then handles the routes and connections to AWS networks.
+- Public virtual interface:
+  - Allows to connect to public AWS endpoints
+  - Requires a CIDR block range
+- Private virtual interface:
+  - Can only communicate with internal IP addresses inside of EC2
+  - It works like a VPN
+  - For best practice, use two DC connections for active-active or active-failover availability.
+  - You can use VPN as backup of DC
+  - You can create multiple PVI to multiple VPCs at the same time.

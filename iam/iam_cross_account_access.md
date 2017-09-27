@@ -1,0 +1,4 @@
+- Cross account access where a user from one account can assume a role with permissions in another account (using IAM roles)
+- Benefits:
+  - No need to create individual IAM users in each account
+  - Users don’t have to sign in and out between differents accounts

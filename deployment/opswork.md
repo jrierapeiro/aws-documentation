@@ -1,0 +1,1 @@
+- AWS OpsWork for Chef Automate provides a fully managed Chef server and suite automation tools that give you workflow automation for continuous deployment, automated testing for compliance and security, and a user interface that gives you visibility into your nodes and their status.

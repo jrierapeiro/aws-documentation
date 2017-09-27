@@ -1,0 +1,8 @@
+- CloudTrail is an API logging service that logs all API calls made to AWS (command line, sdk, or console)
+- Logs places into a designated S3 bucket
+- Used for:
+  - Security and compliance
+  - Monitoring all actions taken against the AWS account
+  - Monitoring (and being notified) of changes to IAM accounts (with CloudWatch/SNS)
+  - Viewing what API keys/users performed any given API action against an environment
+  - Fulfilling auditing requirements inside of organizations

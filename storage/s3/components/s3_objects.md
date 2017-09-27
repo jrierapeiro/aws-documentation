@@ -1,0 +1,14 @@
+- Objects are static files that contains metadata information
+  - Name-key pairs
+  - Information specified by the user, and AWS information such as object type
+- Each object must be assigned a storage type
+- By default, objects are private
+- Features:
+  - From 0 bytes to 5TB
+  - Multiple versions
+  - Public via URL
+  - Automatically switch to a different storage class or deleted
+  - Encrypted
+    - Server Side Encryption (SSE): S3 can encrypt the object before saving it on the partitions in the data centers and decrypt it when it is downloaded. AES-256 (SSE-S3, SSE-C, SSE-KMS)
+    - Use your own encryption keys: Consider client side encryption where you encrypt the data before upload
+    - SSL terminated endpoint for the API

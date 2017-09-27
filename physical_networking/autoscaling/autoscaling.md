@@ -1,0 +1,3 @@
+- Auto Scaling is a service provided by AWS that automates the process of increasing and decreasing the number of provisioned on-demand instances available for your application
+- Auto scaling will increase or decrease the amount of instances based on chosen Cloudwatch metrics (elasticity)
+- Note: For architecture to be considered highly available and fault tolerant, it must have and ELB serving traffic to and ASG with a min of two instances in separate AZs

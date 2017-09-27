@@ -1,0 +1,7 @@
+- It is a service that provides a dedicated network connection between your network and one of the AWS Direct Connect locations.
+- This is done through an authorized DC provider
+- An AWS DC location provides access to the AWS region it is associated with.
+- Benefits:
+  - Reduce network costs: Reduce bandwidth and data billed at a lower rate
+  - Increase network consistency: Reduce latency
+  - Dedicated private network connection to on-premise

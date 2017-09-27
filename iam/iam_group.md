@@ -1,0 +1,3 @@
+- Allows you to assign IAM permission policies to more than one user at a time,
+- A user can be part of a maximum of 10 groups
+- Organisation can create 100 groups per account

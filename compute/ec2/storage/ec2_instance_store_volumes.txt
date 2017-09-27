@@ -1,0 +1,6 @@
+- They are considered ephemeral data. Once the instance is stopped or shutdown the data is erased
+- The instance can be rebooted and still maintain its ephemeral data
+- Cannot be stopped (only rebooted or terminated)
+- Root device volume´s maximum size is 10Gb.
+- You cannot snapshot.
+- Other instance store volumes will be deleted on termination

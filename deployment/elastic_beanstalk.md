@@ -1,0 +1,21 @@
+- It is designed to make it easy to deploy less complex applications
+- This helps to reduce the management require for building and deploying applications
+- It is used to deploy out easy, single-tier application that take advantage of core services such as:
+  - EC2
+  - Auto scaling
+  - ELB
+  - RDS
+  - SQS
+  - CloudFront
+- Why/when to use it:
+  - In order to quickly provision an AWS environment that require little to no management
+  - Can deploy from repositories of from uploaded code files
+  - Easily update applications by uploading a new code files or requesting a pull from a repository
+- Supported platforms:
+  - Docker
+  - Java
+  - .Net
+  - Nodejs
+  - PHP
+  - Python
+  - Ruby

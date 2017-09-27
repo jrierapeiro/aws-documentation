@@ -1,0 +1,6 @@
+- All the rules and settings that govern if/when an EC2 instance is automatically provisioned or terminated:
+  - Number of min and max instances
+  - VPC and AZs to launch instances into
+  - If provisioned instances should receive traffic from a ELB
+  - Scaling policies (cloudwatch metrics)
+  - SNS notifications

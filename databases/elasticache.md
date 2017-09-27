@@ -1,0 +1,4 @@
+- It is a fully managed in-memory cache engine
+- It is used to improve database performance by caching results of queries that are made to the DB
+- It is great for large, high-performance or high-taxing queries
+- Memcached and Redis

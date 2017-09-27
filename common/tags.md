@@ -1,0 +1,8 @@
+- AWS uses the cost allocation tags to organize your resource costs on your cost allocation report.
+- The following basic restrictions apply to tags:
+  - Maximum number of tags per resource—50
+  - Maximum key length—127 Unicode characters in UTF-8
+  - Maximum value length—255 Unicode characters in UTF-8
+  - Tag keys and values are case sensitive.
+  - Do not use the aws: prefix in your tag names or values because it is reserved for AWS use. You can't edit or delete tag names or values with this prefix. Tags with this prefix do not count against your tags per resource limit.
+  - If your tagging schema will be used across multiple services and resources, remember that other services may have restrictions on allowed characters. Generally allowed characters are: letters, spaces, and numbers representable in UTF-8, plus the following special characters: + - = . _ : / @.

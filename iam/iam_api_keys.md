@@ -1,0 +1,9 @@
+- API access keys are required to make programmatic calls to AWS from the:
+  - CLI
+  - Tools for windows PowerShell
+  - AWS SDKs
+  - Direct Http calls using the APIs for individual AWS services
+- Important:
+  - API keys are only available one time, when the user is created or when you reissue a new set of keys
+  - API credentials should be associated with a user
+  - Roles does not have API credentials

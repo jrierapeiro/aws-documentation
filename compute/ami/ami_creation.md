@@ -1,0 +1,10 @@
+- Install the AMI tools. For more information, see Setting Up the AMI Tools.
+- Install the AWS CLI. For more information, see Getting Set Up with the AWS Command Line Interface.
+- Ensure that you have an Amazon S3 bucket for the bundle. To create an Amazon S3 bucket, open the Amazon S3 console and click Create Bucket. Alternatively, you can use the AWS CLI mb command.
+- Ensure that you have your AWS account ID. For more information, see AWS Account Identifiers in the AWS General Reference.
+- Ensure that you have your access key ID and secret access key. For more information, see Access Keys in the AWS General Reference.
+- Ensure that you have an X.509 certificate and corresponding private key.
+  - If you need to create an X.509 certificate, see Managing Signing Certificates. The X.509 certificate and private key are used to encrypt and decrypt your AMI.
+  - [China (Beijing)] Use the $EC2_AMITOOL_HOME/etc/ec2/amitools/cert-ec2-cn-north-1.pemcertificate.
+  - [AWS GovCloud (US)] Use the $EC2_AMITOOL_HOME/etc/ec2/amitools/cert-ec2-gov.pem certificate.
+- Connect to your instance and customize it. For example, you can install software and applications, copy data, delete temporary files, and modify the Linux configuration

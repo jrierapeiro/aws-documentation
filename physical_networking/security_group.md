@@ -1,0 +1,12 @@
+- Security groups are very similar to NACLs in that they allow/deny traffic.
+- They are for the instance level
+- They only support allow rules.
+- The rules are stateful, so return traffics requests are allowed regardless of the rules.
+- All rules are evaluated before deciding to allow traffic
+- By default, a security group includes an outbound rule that allows all outbound traffic only.
+- They are stateful: If you send a request from your instance, the response traffic for that request is allowed to flow in regardless of inbound security group rules. Response to allowed inbound traffic are allowed  to flow out, regardless of outbound rules.
+- Rules definition:
+  - Type (SSH)
+  - Protocol (TCP)
+  - Port range (22)
+  - Source (custom/anywhere/myip) - CIDR, IP or Security group

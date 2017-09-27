@@ -1,0 +1,9 @@
+- Automatic minor updates
+- Automatic backups:
+  - Point-in-time backups
+  - Deleted once the instance is deleted
+  - Only with transactional DBs
+  - MySQL requires InnoDB
+- No required to manage the OS
+- Muti-AZ with a single click
+- Automatic recovery in event of a failover

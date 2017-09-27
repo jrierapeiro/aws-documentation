@@ -1,0 +1,15 @@
+- SQS provides the ability to have hosted/highly available queues that can be used for messages being sent between servers.
+- This allows for the creation of distributed/decoupled application components.
+- SQS is used to create decoupled application environments
+- It is also highly available and redundant
+- Messages between servers are retrieved through polling
+  - Long polling (1-20 sec):
+    - Allows the SQS service to wait until a message is available in a queue before sending a response, and will return all messages from all SQS services.
+    - It reduces API requests
+  - Short polling
+    - SQS samples a subset of servers and returns messages from just those servers.
+    - Will not return all possible messages in a poll.
+    - Increases API request which increases costs
+- Workflow
+  - Generally a worker instance will poll a queue to retrieve waiting messages for processing.
+  - Auto scaling can be applied based off of queue size so that if a component of your application has an increase in demand, the number of worker instances can increase

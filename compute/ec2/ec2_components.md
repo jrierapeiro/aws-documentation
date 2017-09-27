@@ -1,0 +1,6 @@
+- AMI
+- Instance type: The hardware
+- Network interface
+- Storage:
+  - EBS: network persistent storage
+  - Instance store: ephemeral

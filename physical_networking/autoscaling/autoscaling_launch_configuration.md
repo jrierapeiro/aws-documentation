@@ -1,0 +1,1 @@
+- The EC2 template used when the auto scaling group needs to provision an additional instance

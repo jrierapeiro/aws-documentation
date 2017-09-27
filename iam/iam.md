@@ -1,0 +1,14 @@
+- Use IAM (identity and access management) to manage users, groups and roles and their access to AWS accounts and services:
+  - IAM provides access and access permissions to AWS resources
+  - IAM is global to all AWS regions
+- IAM is used to manage users, groups, roles, IAM access policies, API keys, specify a password policy as well as manage MFA requirements on a per user basis
+- By default, any new IAM user you create is created with no access to any AWS services. This is a non-explicit deny rule set on all new IAM users
+- For all users (besides root), permissions must be given that grant access to AWS services (through IAM policies)
+- Best practices for a new AWS account:
+  - Delete your root access keys
+  - Activate MFA
+  - Create individual IAM users
+  - Use groups to assign permissions
+- Apply an IAM password policy (numbers, length, etc)
+- Apply always the Principle of Least Privilege when administering AWS accounts, users, groups, and roles.
+- IAM uses SAML 2.0 in order to authenticate Identity Access Management with the third party Identity Provider Active Directory

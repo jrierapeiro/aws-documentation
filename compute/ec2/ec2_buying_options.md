@@ -1,0 +1,16 @@
+- On-Demand
+  - It allows you to choose any instance type you like and provision/terminate it at any time:
+    - The most expensive
+    - The most flexible
+    - Charged by the instance running per hour
+- Reserved
+  - They are available for Multi-AZ deployments
+  - It allows you to purchase an instance for a set time period of one or three years:
+    - Discount over using on-demand
+    - Pay upfront, partial upfront, no upfront
+- Spot
+  - It is a way to bid on an instance type, and only pay for and use that instance when the spot price is equal or below your bid price:
+    - Spot prices fluctuate
+    - Charged by hour
+    - When you have a bid, an instance is provisioned for you when the spot price is equal to or less than your bid price
+    - A provisioned instance will automatically terminate when the spot price is higher than your bid
